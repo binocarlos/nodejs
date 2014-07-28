@@ -9,3 +9,4 @@ RUN chmod a+x /usr/local/bin/nave
 RUN nave usemain 0.10.29 || nave usemain 0.10.29
 
 ENTRYPOINT ["/usr/local/bin/node"]
+CMD [""]
